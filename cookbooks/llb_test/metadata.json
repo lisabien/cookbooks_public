@@ -1,10 +1,8 @@
 {
-  "conflicting": {
+  "dependencies": {
   },
-  "description": "Learning to use Chef/Cookbooks/Recipes",
-  "providing": {
-  },
-  "maintainer": "RightScale, Inc.",
+  "name": "llb_test",
+  "maintainer_email": "lisa.bien@rightscale.com",
   "attributes": {
     "name": {
       "required": "required",
@@ -20,25 +18,27 @@
       "description": "Test specifying Input via Chef attribute"
     }
   },
-  "replacing": {
-  },
-  "dependencies": {
-  },
-  "maintainer_email": "lisa.bien@rightscale.com",
-  "long_description": "= RightScale LLB_Test Cookbook \n\n== DESCRIPTION:\n\n== DETAILS:\n\n== REQUIREMENTS:\n\n== SETUP:\n\n== USAGE:\n\n== KNOWN LIMITATIONS:\n\n= LICENSE\n\nCopyright RightScale, Inc. All rights reserved.  All access and use subject to the\nRightScale Terms of Service available at http://www.rightscale.com/terms.php and,\nif applicable, other agreements such as a RightScale Master Subscription Agreement.\n",
-  "groupings": {
-  },
-  "recommendations": {
+  "license": "Copyright RightScale, Inc. All rights reserved.  All access and use subject to the RightScale Terms of Service available at http://www.rightscale.com/terms.php and, if applicable, other agreements such as a RightScale Master Subscription Agreement.\n",
+  "suggestions": {
   },
   "platforms": {
   },
-  "name": "llb_test",
+  "maintainer": "RightScale, Inc.",
+  "long_description": "= RightScale LLB_Test Cookbook \n\n== DESCRIPTION:\n\n== DETAILS:\n\n== REQUIREMENTS:\n\n== SETUP:\n\n== USAGE:\n\n== KNOWN LIMITATIONS:\n\n= LICENSE\n\nCopyright RightScale, Inc. All rights reserved.  All access and use subject to the\nRightScale Terms of Service available at http://www.rightscale.com/terms.php and,\nif applicable, other agreements such as a RightScale Master Subscription Agreement.\n",
   "version": "0.1.0",
-  "license": "Copyright RightScale, Inc. All rights reserved.  All access and use subject to the RightScale Terms of Service available at http://www.rightscale.com/terms.php and, if applicable, other agreements such as a RightScale Master Subscription Agreement.\n",
+  "recommendations": {
+  },
   "recipes": {
     "llb_test::helloworld": "My first recipe, prints Hello World to the RightScale dashboard",
     "llb_test::hello": "My second recipe, prints Hello NAME to the RightScale dashboard"
   },
-  "suggestions": {
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Learning to use Chef/Cookbooks/Recipes",
+  "providing": {
   }
 }
