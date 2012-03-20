@@ -29,6 +29,8 @@
   "recommendations": {
   },
   "recipes": {
+    "llb_test::helloworld2": "My first recipe, prints Hello World2 to the RightScale dashboard",
+    "llb_test::helloworld3": "My first recipe, prints Hello World2 to the RightScale dashboard",
     "llb_test::helloworld": "My first recipe, prints Hello World to the RightScale dashboard",
     "llb_test::hello": "My second recipe, prints Hello NAME to the RightScale dashboard"
   },
